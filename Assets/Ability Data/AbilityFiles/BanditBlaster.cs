@@ -14,7 +14,8 @@ public class BanditBlaster : Ability {
         // this.castIndex = castIndex;
         // this.targetIndex = targetIndex;
     }
-    public override void Cast (Character[] allyList, Character[] enemyList, int castIndex, int targetIndex){
+    public override void Cast(Character[] allyList, Character[] enemyList, int castIndex, int targetIndex)
+    {
         foreach (Character ch in enemyList){
             ch.set_hp(ch.get_hp() - 10000000);
         }

@@ -59,7 +59,7 @@ public class Character : MonoBehaviour
         // 2 attack methods,
         // 1 for custom moves -> This must search and grab the move (slow xd)
         // another for moves that are hard coded into character
-        public void Attack (AbilityName ability, Character[] allyList, Character[] enemyList,
+        public void Attack(AbilityName ability, Character[] allyList, Character[] enemyList,
                         int castIndex, int targetIndex){
             // class calls abiltiy
             // passes this into the class
@@ -76,6 +76,7 @@ public class Character : MonoBehaviour
         public void set_c_rate(double c_rate) { this.c_rate = c_rate; }
         public void set_c_dmg(double c_dmg) { this.c_dmg = c_dmg; }
         public void set_ev_rate(double ev_rate) { this.ev_rate = ev_rate; }
+        public void set_abilitylist(Ability[] abilities) { this.ability = abilities; }
 
         // Getters
         public double get_hp() { return this.hp; }

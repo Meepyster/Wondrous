@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,4 +24,4 @@ namespace Assets.Ability_Data.AbilityFiles
             enemyList[targetIndex].set_hp(enemyList[targetIndex].get_hp() - 100);
         }
     }
-}
+}*/

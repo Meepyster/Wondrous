@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public abstract class Ability : MonoBehaviour {
-    Character[] allyList;
+/*    Character[] allyList;
     Character[] enemyList;
     int castIndex;
     int targetIndex;
@@ -13,13 +13,13 @@ public abstract class Ability : MonoBehaviour {
         this.enemyList = enemyList;
         this.castIndex = castIndex;
         this.targetIndex = targetIndex; 
-    }
+    }*/
 
     public Ability()
     {
         //why does this work???????????
     }
 
-    public abstract void Cast();
+    public abstract void Cast(Character[] allyList, Character[] enemyList, int castIndex, int targetIndex);
 
 }

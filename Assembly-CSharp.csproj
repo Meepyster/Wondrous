@@ -68,7 +68,9 @@
     <Compile Include="Assets\Ability Data\AbilityFiles\BanditBlaster.cs" />
     <Compile Include="Assets\Ability Data\AbilityCatalog.cs" />
     <Compile Include="Assets\Ability Data\AbilityFiles\mightOfDemacia.cs" />
+    <Compile Include="Assets\Character Object List\Bandit.cs" />
     <Compile Include="Assets\Character Object List\Character.cs" />
+    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy%402.5.2\Editor\PlasticSCM\ApplicationDataPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy%402.5.2\Editor\PlasticSCM\AssemblyInfo.cs" />
@@ -1633,6 +1635,8 @@
     <Content Include="Library\PackageCache\com.unity.collab-proxy%402.5.2\Editor\PlasticSCM\Assets\Images\xlink.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\NewBehaviourScript.cs.meta" />
+    <None Include="Assets\Scenes.meta" />
     <None Include="Assets\Scenes\SampleScene.unity" />
     <None Include="Assets\Scenes\SampleScene.unity.meta" />
     <None Include="Library\AnnotationManager" />
