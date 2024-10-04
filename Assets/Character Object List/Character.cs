@@ -34,27 +34,27 @@ public class Character : MonoBehaviour
                 ov_counter += 1;
             }
         }
-        public Character() : this("", 1000, 100, 10, 10, true, 10, 10, new Ability[1], 10)
-        {
-            // overload to default when there are no arguments
-        }
+        // public Character() : this("", 1000, 100, 10, 10, true, 10, 10, new Ability[1], 10)
+        // {
+        //     // overload to default when there are no arguments
+        // }
         
-        public Character(string name)
-        {
-            if (name == "Bandit")
-            {
-            this.name = "Bandit";
-            this.hp = 1000;
-            this.atk = 100;
-            this.def = 10;
-            this.spd = 10;
-            this.is_alive = true;
-            this.c_rate = 10;
-            this.c_dmg = 10;
-            this.ability = new Ability[0];
-            this.ev_rate = 10;
-            }
-        }
+        // public Character(string name)
+        // {
+        //     if (name == "Bandit")
+        //     {
+        //     this.name = "Bandit";
+        //     this.hp = 1000;
+        //     this.atk = 100;
+        //     this.def = 10;
+        //     this.spd = 10;
+        //     this.is_alive = true;
+        //     this.c_rate = 10;
+        //     this.c_dmg = 10;
+        //     this.ability = new Ability[0];
+        //     this.ev_rate = 10;
+        //     }
+        // }
         // Setters
         // 2 attack methods,
         // 1 for custom moves -> This must search and grab the move (slow xd)
@@ -67,7 +67,7 @@ public class Character : MonoBehaviour
         }
         public void Attack(int index, Character[] allyList, Character[] enemyList,
                         int castIndex, int targetIndex){
-        ability[index].Cast();
+        ability[index].Cast(allyList, enemyList, castIndex, targetIndex);
         }
         public void set_hp(double hp) { this.hp = hp; }
         public void set_atk(double atk) { this.atk = atk; }
