@@ -68,8 +68,12 @@
     <Compile Include="Assets\Ability Data\AbilityFiles\BanditBlaster.cs" />
     <Compile Include="Assets\Ability Data\AbilityCatalog.cs" />
     <Compile Include="Assets\Ability Data\AbilityFiles\mightOfDemacia.cs" />
+    <Compile Include="Assets\Character Object List\Ability Names.cs" />
+    <Compile Include="Assets\Character Object List\AbilityCatalog.cs" />
+    <Compile Include="Assets\Character Object List\AbiltiyRuntimeData.cs" />
     <Compile Include="Assets\Character Object List\Bandit.cs" />
     <Compile Include="Assets\Character Object List\Character.cs" />
+    <Compile Include="Assets\Character Object List\test.cs" />
     <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy%402.5.2\Editor\PlasticSCM\ApplicationDataPath.cs" />

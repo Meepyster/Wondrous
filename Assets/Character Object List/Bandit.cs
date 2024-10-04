@@ -18,8 +18,8 @@ public class Bandit : Character
     {
         // Initialize abilities array and abilities here
         abilities = new Ability[2];
-        a = new BanditBlaster();
-        b = new BanditBlaster();
+        a = new BanditBlaster("a");
+        b = new BanditBlaster("b");
         abilities[0] = a;
         abilities[1] = b;
 
