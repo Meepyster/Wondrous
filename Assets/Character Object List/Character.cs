@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Assets;
 public class Character : MonoBehaviour
 {
         private string name;
@@ -60,11 +59,15 @@ public class Character : MonoBehaviour
         // 2 attack methods,
         // 1 for custom moves -> This must search and grab the move (slow xd)
         // another for moves that are hard coded into character
-        public Attack (AbilityName ability, Character[] allyList, Character[] enemyList,
+        public void Attack (AbilityName ability, Character[] allyList, Character[] enemyList,
                         int castIndex, int targetIndex){
             // class calls abiltiy
             // passes this into the class
             // the ability does thr ewo
+        }
+        public void Attack(int index, Character[] allyList, Character[] enemyList,
+                        int castIndex, int targetIndex){
+        ability[index].Cast();
         }
         public void set_hp(double hp) { this.hp = hp; }
         public void set_atk(double atk) { this.atk = atk; }
